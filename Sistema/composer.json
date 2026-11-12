@@ -1,0 +1,17 @@
+{
+    "name": "vetcare/clinica",
+    "description": "Sistema de gestao para clinica veterinaria SAEP",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*",
+        "ext-openssl": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VetCare\\": "src/"
+        }
+    }
+}
